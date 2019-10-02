@@ -6,14 +6,14 @@ if sys.version_info < (2, 6):
     requires.append('simplejson')
 
 setup(
-    name = "kavenegar",
-    py_modules = ['kavenegar'],
+    name = "ghasedakkavenegar",
+    py_modules = ['ghasedakkavenegar'],
     version = "1.1.3",
-    description = "Kavenegar Python library",
-    author = "Kavenegar Team",
-    author_email = "support@kavenegar.com",
-    url = "https://github.com/kavenegar/kavenegar-python",
-    keywords = ["kavenegar", "sms"],
+    description = "Ghasedak-Kavenegar Migration Python library",
+    author = "GhasedakBot",
+    author_email = "support@ghasedak.io",
+    url = "https://github.com/ghasedakapi/ghasedak-kavenegar-python",
+    keywords = ["kavenegar", "sms", "ghasedak"],
     install_requires = requires,
     classifiers = [
         "Programming Language :: Python",
