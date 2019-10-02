@@ -19,7 +19,7 @@ class HTTPException(Exception):
 class KavenegarAPI(object):
     def __init__(self, apikey, timeout=None):
         self.version = 'v1'
-        self.host = 'api.kavenegar.com'
+        self.host = 'api.ghasedak.io/kavenegar'
         self.apikey = apikey
         self.timeout = timeout or DEFAULT_TIMEOUT
         self.headers = {
